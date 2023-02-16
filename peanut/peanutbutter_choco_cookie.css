@@ -6,6 +6,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color:
+    
 }
 
 .container {
@@ -37,6 +39,11 @@
 .descriptions {
     justify-content: center;
     align-items: center;
+    padding: 24px
+}
+
+.description {
+    padding: 60px ;
 }
 
 .img__peanut {
@@ -45,8 +52,77 @@
 
 /* TIMES */ 
 
-.time__header {
+
+.time__container {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+
+.time__header {
+}
+
+.times {
+    padding: 50px;
+}
+
+.times__container {
+    display: flex;
+}
+/* INGREDIENTS */
+
+.ingre__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    padding: 24px;
+}
+
+.ingredients {
+    padding: 24px;
+}
+
+.ingredient {
+    padding: 8px;
+}
+/* instructions */ 
+
+.instru___container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.instruction {
+    padding: 24px;
+}
+
+/* Equipment */ 
+
+.equipment___container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 24px;
+}
+
+/* NOTES */ 
+
+.note__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.notes__description {
+    margin: 24px;
+}
+
+.notes {
+    padding: 24px 48px;
 }

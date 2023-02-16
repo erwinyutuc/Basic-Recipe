@@ -87,6 +87,15 @@
     align-items: center;
 }
 
-.nutrition {
+.nutritions {
+    display: flex;
     flex-wrap: wrap;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nutrition {
+    list-style-type: none;
+    margin: 24px;
 }
