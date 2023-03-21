@@ -18,22 +18,37 @@
     margin: 0 auto;
 }
 
+.logo {
+    color: white;
+    padding: 1rem;
+}
+
 .nav__container {
     display: flex;
     justify-content: space-between;
+    background-color: navy;
 }
 
 .nav__links {
     display: flex;
+    align-items: center;
+    justify-content: center;
     list-style-type: none;
+    padding-right: 1rem;
+    color: white;
+    text-decoration: none;
 }
 
 .nav__link {
     padding-left: 16px;
+    text-decoration: none;
 }
 
 /* INDREDIENTS */
 
+.container {
+    padding-top: 2rem;
+}
 .ingre--fill {
     display: flex;
     flex-direction: column;
@@ -42,6 +57,17 @@
 
 .bb__img {
     
+}
+
+/* NOTES */
+
+.note__container {
+    display: flex;
+    flex-direction: column; 
+}
+
+.note {
+    padding: 1rem 0;
 }
 
 /* INSTRUCTION */
@@ -59,27 +85,15 @@
 }
 
 .step__container {
-    margin: 24px 40px
+    
 }
 
 .step {
-    padding-bottom: 40px;
+    
+    padding: 1rem;
 }
 
-/* INDREDIENTS */
-
-.note__container {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 80px;
-}
-
-.note {
-    padding: 40px
-}
-
-/* INDREDIENTS */
+/* NUTRITION */
 
 .nutrition__container {
     flex-direction: column;

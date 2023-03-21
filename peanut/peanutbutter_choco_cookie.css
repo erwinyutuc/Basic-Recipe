@@ -6,13 +6,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color:
-    
 }
 
-.container {
-    display: flex;
-}
 
 .row {
     width: 100%;
@@ -20,14 +15,22 @@
     margin: 0 auto;
 }
 
+.logo {
+    color: white;
+}
+
 .nav__container {
     display: flex;
     justify-content: space-between;
+    background-color: navy;
+    padding: 1rem;
 }
 
 .nav__links {
     display: flex;
     list-style-type: none;
+    text-decoration: none;
+
 }
 
 .nav__link {
@@ -36,6 +39,9 @@
 
 /* DESCRIPTION */
 
+.land-cont {
+    width: 50%;
+}
 .descriptions {
     justify-content: center;
     align-items: center;
@@ -43,11 +49,11 @@
 }
 
 .description {
-    padding: 60px ;
+    padding-top: 1rem;
 }
 
-.img__peanut {
-    height: 60vh;
+.peanutimg {
+    width: 50%;
 }
 
 /* TIMES */ 
